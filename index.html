@@ -44,8 +44,8 @@
   </head>
   <!-- Modal starts -->
   <!-- modal 1 -->
-  <div class="modal container mx-auto" id="my_modal_8">
-    <div class="modal-box py-[70px] w-[800px]">
+  <div class="modal me-0" id="my_modal_8">
+    <div class="modal-box py-[70px] w-auto">
       <div class="pt-2 pb-4 px-[87px] text-center">
         <img src="images/fruit6.png" class="ms-1 w-[355px]" alt="" />
         <h3 class="text-2xl font-bold my-12 hidden">12.90$ - 18.85$</h3>
@@ -118,7 +118,7 @@
     </div>
   </div>
   <!-- modal 2 -->
-  <div class="modal container mx-auto" id="my_modal_9">
+  <div class="modal" id="my_modal_9">
     <div class="modal-box py-[70px] w-[800px]">
       <div class="pt-2 pb-4 px-[87px] text-center">
         <img src="images/fruit7.png" class="ms-1 w-[355px]" alt="" />
@@ -192,7 +192,7 @@
     </div>
   </div>
   <!-- modal 3 -->
-  <div class="modal container mx-auto" id="my_modal_10">
+  <div class="modal" id="my_modal_10">
     <div class="modal-box py-[70px] w-[800px]">
       <div class="pt-2 pb-4 px-[87px] text-center">
         <img src="images/fruit8.png" class="ms-1 w-[355px]" alt="" />
@@ -266,7 +266,7 @@
     </div>
   </div>
   <!-- modal 4 -->
-  <div class="modal container mx-auto" id="my_modal_11">
+  <div class="modal" id="my_modal_11">
     <div class="modal-box py-[70px] w-[800px]">
       <div class="pt-2 pb-4 px-[87px] text-center">
         <img src="images/fruit9.png" class="ms-1 w-[355px]" alt="" />
@@ -348,7 +348,7 @@
           class="navbar lg:bg-color-primary md:bg-color-primary rounded-[600px] px-6 lg:px-8 lg:py-12 text-black lg:text-white"
         >
           <!-- menus -->
-          <div class="navbar-start hidden lg:flex">
+          <div class="navbar-start hidden md:hidden lg:block">
             <ul class="menu menu-horizontal px-[30px] text-lg">
               <li><a>Home</a></li>
               <li><a>About Us</a></li>
@@ -376,7 +376,7 @@
             </div>
             <div class="dropdown block lg:hidden">
               <label tabindex="0" class="btn btn-ghost btn-circle">
-                <i class="fa-solid fa-bars text-2xl"></i>
+                <i class="fa-solid fa-bars ms-auto md:ms-[375px] text-2xl"></i>
               </label>
               <ul
                 tabindex="0"
@@ -422,7 +422,7 @@
             </div>
           </div>
           <div
-            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            class="absolute flex justify-between transform -translate-y-1/2 left-8 right-8 top-1/2"
           >
             <a href="#slide4" class="btn btn-circle bg-transparent text-white"
               >❮</a
@@ -436,7 +436,7 @@
         <div id="slide2" class="carousel-item relative w-full">
           <div
             class="hero mx-7 lg:mx-auto w-full"
-            style="background-image: url('images/banner1.png')"
+            style="background-image: url('images/banner2.png')"
           >
             <div class="hero-overlay bg-opacity-40"></div>
             <div class="text-center text-neutral-content">
@@ -459,7 +459,7 @@
             </div>
           </div>
           <div
-            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            class="absolute flex justify-between transform -translate-y-1/2 left-8 right-8 top-1/2"
           >
             <a href="#slide1" class="btn btn-circle bg-transparent text-white"
               >❮</a
@@ -473,7 +473,7 @@
         <div id="slide3" class="carousel-item relative w-full">
           <div
             class="hero mx-7 lg:mx-auto w-full"
-            style="background-image: url('images/banner1.png')"
+            style="background-image: url('images/banner3.png')"
           >
             <div class="hero-overlay bg-opacity-40"></div>
             <div class="text-center text-neutral-content">
@@ -496,7 +496,7 @@
             </div>
           </div>
           <div
-            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            class="absolute flex justify-between transform -translate-y-1/2 left-8 right-8 top-1/2"
           >
             <a href="#slide2" class="btn btn-circle bg-transparent text-white"
               >❮</a
@@ -510,7 +510,7 @@
         <div id="slide4" class="carousel-item relative w-full">
           <div
             class="hero mx-7 lg:mx-auto w-full"
-            style="background-image: url('images/banner1.png')"
+            style="background-image: url('images/banner4.png')"
           >
             <div class="hero-overlay bg-opacity-40"></div>
             <div class="text-center text-neutral-content">
@@ -533,7 +533,7 @@
             </div>
           </div>
           <div
-            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            class="absolute flex justify-between transform -translate-y-1/2 left-8 right-8 top-1/2"
           >
             <a href="#slide3" class="btn btn-circle bg-transparent text-white"
               >❮</a
@@ -545,9 +545,9 @@
         </div>
       </div>
       <!-- extra section -->
-      <div class="hidden lg:block md:block">
+      <div class="hidden md:hidden lg:block md:block">
         <div
-          class="flex z-10 bg-white absolute rounded-lg top-[735px] left-[22%] py-12 px-20 shadow-2xl mx-auto max-w-[1100px] gap-24 justify-around"
+          class="flex z-10 bg-white absolute top-[735px] left-[22%] py-12 px-20 shadow-2xl mx-auto max-w-[1100px] gap-24 justify-around"
         >
           <div class="">
             <img src="images/fruit1.png" alt="" />
@@ -608,9 +608,9 @@
           </div>
         </div>
         <!-- cards -->
-        <div class="flex mt-6 lg:mt-auto flex-col lg:flex-row justify-between">
+        <div class="flex mt-6 lg:mt-auto flex-nowrap md:flex-wrap lg:flex-nowrap flex-col md:flex-row lg:flex-row justify-between">
           <!-- card1 -->
-          <div class="py-14 px-[87px] border border-[#dadadae1] rounded-lg text-center">
+          <div class="py-14 lg:mb-auto px-[87px] border border-[#dadadae1] text-center">
             <img src="images/fruit6.png" class="ms-10 lg:ms-6" alt="" />
             <h3 class="text-2xl font-bold my-12">12.90$ - 18.85$</h3>
             <div class="flex justify-center">
@@ -672,7 +672,7 @@
               />
             </div>
             <br />
-            <a href="#my_modal_8" class="text-base text-color-text">Details</a>
+            <a href="#my_modal_8" class="text-base text-color-primary">Details</a>
           </div>
           <!-- card2 -->
           <div class="py-14 my-4 lg:my-auto px-[87px] border border-[#dadadae1] text-center">
@@ -736,7 +736,7 @@
                 class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
               />
             </div><br>
-            <a href="#my_modal_9" class="text-base text-color-text">Details</a>
+            <a href="#my_modal_9" class="text-base text-color-primary text-color-text">Details</a>
           </div>
           <!-- card3 -->
           <div class="py-14 px-[87px] border border-[#dadadae1] text-center">
@@ -800,7 +800,7 @@
                 class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
               />
             </div><br>
-            <a href="#my_modal_10" class="text-base text-color-text">Details</a>
+            <a href="#my_modal_10" class="text-base text-color-primary text-color-text">Details</a>
           </div>
           <!-- card4 -->
           <div class="py-14 mt-4 lg:mt-0 px-[87px] border border-[#dadadae1] text-center">
@@ -864,7 +864,7 @@
                 class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
               />
             </div><br>
-            <a href="#my_modal_11" class="text-base text-color-text">Details</a>
+            <a href="#my_modal_11" class="text-base text-color-primary text-color-text">Details</a>
           </div>
         </div>
         <div class="text-center">
@@ -981,9 +981,9 @@
         </div>
         <div class="flex flex-col lg:flex-row gap-6 lg:gap-12">
           <!-- div start -->
-          <div class="space-y-[48px]">
+          <div class="space-y-[48px] order-2 lg:order-1">
             <div class="flex flex-col lg:flex-row items-center gap-6">
-              <div class=""><i class="text-6xl fa-solid fa-users"></i></div>
+              <div class=""><i class="mt-6 lg:mt-auto text-6xl fa-solid fa-users"></i></div>
               <div class="text-center lg:text-left">
                 <h3 class="text-2xl font-black">Dedicated Team</h3>
                 <div class="flex justify-center lg:justify-start">
@@ -1023,11 +1023,11 @@
             </div>
           </div>
           <!-- div center -->
-          <div class="">
+          <div class="order-1 lg:order-2">
             <img src="images/whychoose1.png" class="h-auto lg:h-[435px]" alt="" />
           </div>
           <!-- div end -->
-          <div class="space-y-[48px]">
+          <div class="space-y-[48px] order-3">
             <div class="flex flex-col lg:flex-row-reverse items-center gap-6">
               <div class=""><i class="text-6xl fa-solid fa-envelope"></i></div>
               <div class="text-center lg:text-right">
