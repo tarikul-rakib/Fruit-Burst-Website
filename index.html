@@ -371,8 +371,7 @@
               class="search-container text-[#f96b6e] hidden lg:block text-base py-5 px-7 w-[400px] rounded-[50px] bg-white inline-block relative"
             >
               <input type="text" placeholder="Search here" />
-              <i
-                class="fas fa-search text-2xl absolute left-[335px] text-[#121212] bg-white"
+              <i class="fas fa-search text-2xl absolute left-[335px] text-[#121212] bg-white"
               ></i>
             </div>
             <div class="dropdown block lg:hidden">
@@ -381,11 +380,13 @@
               </label>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-color-primary lg:bg-base-100 rounded-box w-52"
               >
-                <li><a>Homepage</a></li>
-                <li><a>Portfolio</a></li>
-                <li><a>About</a></li>
+                <li><a>Home</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Shop</a></li>
+                <li><a>All Fruits</a></li>
+                <input type="text" placeholder="search" class="ps-4" />
               </ul>
             </div>
           </div>
@@ -612,6 +613,9 @@
           <div class="py-14 px-[87px] border border-[#dadadae1] rounded-lg text-center">
             <img src="images/fruit6.png" class="ms-10 lg:ms-6" alt="" />
             <h3 class="text-2xl font-bold my-12">12.90$ - 18.85$</h3>
+            <div class="flex justify-center">
+              <hr class="w-44 mb-6 text-[#12121299]" />
+            </div>
             <p class="text-base text-color-text">Apples</p>
             <div class="rating rating-md rating-half my-6">
               <input type="radio" name="rating-10" class="rating-hidden" />
@@ -674,7 +678,10 @@
           <div class="py-14 my-4 lg:my-auto px-[87px] border border-[#dadadae1] text-center">
             <img src="images/fruit7.png" class="ms-6 lg:ms-0" alt="" />
             <h3 class="text-2xl font-bold my-12">12.90$ - 18.85$</h3>
-            <p class="text-base text-color-text">Apples</p>
+            <div class="flex justify-center">
+              <hr class="w-44 mb-6 text-[#12121299]" />
+            </div>
+            <p class="text-base text-color-text">Orange</p>
             <div class="rating rating-md rating-half my-6">
               <input type="radio" name="rating-10" class="rating-hidden" />
               <input
@@ -735,7 +742,10 @@
           <div class="py-14 px-[87px] border border-[#dadadae1] text-center">
             <img src="images/fruit8.png" class="ms-6 lg:0" alt="" />
             <h3 class="text-2xl font-bold my-12">12.90$ - 18.85$</h3>
-            <p class="text-base text-color-text">Apples</p>
+            <div class="flex justify-center">
+              <hr class="w-44 mb-6 text-[#12121299]" />
+            </div>
+            <p class="text-base text-color-text">Red Dragon</p>
             <div class="rating rating-md rating-half my-6">
               <input type="radio" name="rating-10" class="rating-hidden" />
               <input
@@ -796,7 +806,10 @@
           <div class="py-14 mt-4 lg:mt-0 px-[87px] border border-[#dadadae1] text-center">
             <img src="images/fruit9.png" class="ms-6 lg:ms-0" alt="" />
             <h3 class="text-2xl font-bold my-12">12.90$ - 18.85$</h3>
-            <p class="text-base text-color-text">Apples</p>
+            <div class="flex justify-center">
+              <hr class="w-44 mb-6 text-[#12121299]" />
+            </div>
+            <p class="text-base text-color-text">Banana</p>
             <div class="rating rating-md rating-half my-6">
               <input type="radio" name="rating-10" class="rating-hidden" />
               <input
@@ -974,9 +987,9 @@
               <div class="text-center lg:text-left">
                 <h3 class="text-2xl font-black">Dedicated Team</h3>
                 <div class="flex justify-center lg:justify-start">
-                  <hr class="my-4 w-24 text-[#12121299]" />
+                  <hr class="my-4 w-24 text-[#121212de]" />
                 </div>
-                <p>
+                <p class="w-[234px] lg:w-auto">
                   Professional employees are there for you to pick the most
                   amazing and fresh fruits.
                 </p>
@@ -986,8 +999,10 @@
               <div class=""><i class="text-6xl fa-brands fa-gratipay"></i></div>
               <div class="text-center lg:text-left">
                 <h3 class="text-2xl font-black">Fresh is Best</h3>
-                <hr class="my-4 w-24 text-[#12121299]" />
-                <p>
+                <div class="flex justify-center lg:justify-start">
+                  <hr class="my-4 w-24 text-[#12121299]" />
+                </div>
+                <p class="w-[234px] lg:w-auto">
                   Professional employees are there for you to pick the most
                   amazing and fresh fruits.
                 </p>
@@ -997,8 +1012,10 @@
               <div class=""><i class="text-6xl fa-solid fa-gift"></i></div>
               <div class="text-center lg:text-left">
                 <h3 class="text-2xl font-black">Gift Certificates</h3>
-                <hr class="my-4 w-24 text-[#12121299]" />
-                <p>
+                <div class="flex justify-center lg:justify-start">
+                  <hr class="my-4 w-24 text-[#12121299]" />
+                </div>
+                <p class="w-[234px] lg:w-auto">
                   Professional employees are there for you to pick the most
                   amazing and fresh fruits.
                 </p>
@@ -1018,7 +1035,7 @@
                 <div class="flex justify-center lg:justify-end">
                   <hr class="my-4 flex w-24 text-[#12121299]" />
                 </div>
-                <p>
+                <p class="w-[234px] lg:w-auto">
                   Professional employees are there for you to pick the most
                   amazing and fresh fruits.
                 </p>
@@ -1031,7 +1048,7 @@
                 <div class="flex justify-center lg:justify-end">
                   <hr class="my-4 flex w-24 text-[#12121299]" />
                 </div>
-                <p>
+                <p class="w-[234px] lg:w-auto">
                   Professional employees are there for you to pick the most
                   amazing and fresh fruits.
                 </p>
@@ -1042,9 +1059,9 @@
               <div class="text-center lg:text-right">
                 <h3 class="text-2xl font-black">The Benefits Only</h3>
                 <div class="flex justify-center lg:justify-end">
-                  <hr class="my-4 flex w-24 text-[#12121299]" />
+                  <hr class="my-4 flex w-24 text-[#000000]" />
                 </div>
-                <p>
+                <p class="w-[234px] lg:w-auto">
                   Professional employees are there for you to pick the most
                   amazing and fresh fruits.
                 </p>
